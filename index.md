@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 📂 文章
-      link: /blog-cover
+      link: /articles
     - theme: alt
       text: "🌺 朋友们"
       link: /friends

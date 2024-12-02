@@ -13,6 +13,7 @@ const vitePressOptions = {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
+      { text: "文章", link: "/articles" },
       { text: "朋友们", link: "/friends" },
     ],
 
@@ -51,6 +52,7 @@ const vitePressSidebarOptions = {
   capitalizeFirst: true,
   useTitleFromFileHeading: true,
   useFolderTitleFromIndexFile: true,
+  useFolderLinkFromIndexFile: true,
 
   sortMenusByFrontmatterOrder: true,
   sortMenusOrderByDescending: true,
