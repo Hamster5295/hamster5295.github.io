@@ -22,7 +22,7 @@ const vitePressOptions = {
     },
 
     lastUpdated: {
-      text: "Updated at",
+      text: "上次更新",
       formatOptions: {
         dateStyle: "full",
         timeStyle: "medium",
