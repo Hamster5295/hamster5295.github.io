@@ -4,7 +4,7 @@ import { withSidebar } from "vitepress-sidebar";
 const vitePressOptions = {
   title: "Hamster5295's Blog",
   description: "Hamsters are really CUTE!!!",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "https://raw.githubusercontent.com/Hamster5295/hamster5295.github.io/refs/heads/main/public/favicon.ico" }]],
 
   themeConfig: {
     logo: "/avatar.webp",
