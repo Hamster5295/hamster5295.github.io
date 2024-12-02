@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
+import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 
 const vitePressOptions = {
   title: "Hamster5295's Blog",
@@ -31,6 +32,17 @@ const vitePressOptions = {
   },
   lastUpdated: true,
   externalLinkIcon: true,
+
+  vite:{
+    plugins: [
+      RssPlugin({
+        title: "Hamster5295's Blog",
+        description: "Hamster5295 的博客，（将会）包含各种神奇的技术分享！",
+        baseUrl: "https://hamster5295.github.io",
+        copyright: "Copyright © 2023-present Hamster5295",
+      })
+    ]
+  }
 };
 
 const vitePressSidebarOptions = {
