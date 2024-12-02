@@ -21,7 +21,7 @@ features:
   - icon: 📖
     title: "关于学业"
     details: "正在<b>集成电路设计与集成系统专业</b>本科就读<br/>但也很喜欢软件！"
-  - icon: 🎮
+  - icon: 🕹️
     title: "关于爱好"
     details: "独立游戏开发者与技术爱好者<br/>喜欢各种各样的技术栈！"
   - icon: 🐹
