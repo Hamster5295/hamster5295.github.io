@@ -5,6 +5,9 @@ import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 const vitePressOptions = {
   title: "Hamster5295's Blog",
   description: "Hamsters are really CUTE!!!",
+
+  appearance: 'dark',
+
   head: [["link", { rel: "icon", href: "https://raw.githubusercontent.com/Hamster5295/hamster5295.github.io/refs/heads/main/public/favicon.ico" }]],
 
   themeConfig: {
