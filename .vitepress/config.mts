@@ -1,14 +1,22 @@
 import { defineConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
-import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
+import { RssPlugin } from "vitepress-plugin-rss";
 
 const vitePressOptions = {
   title: "Hamster5295's Blog",
   description: "Hamsters are really CUTE!!!",
 
-  appearance: 'dark',
+  appearance: "dark",
 
-  head: [["link", { rel: "icon", href: "https://raw.githubusercontent.com/Hamster5295/hamster5295.github.io/refs/heads/main/public/favicon.ico" }]],
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "https://raw.githubusercontent.com/Hamster5295/hamster5295.github.io/refs/heads/main/public/favicon.ico",
+      },
+    ],
+  ],
 
   themeConfig: {
     logo: "/avatar.webp",
@@ -19,6 +27,10 @@ const vitePressOptions = {
       { text: "文章", link: "/articles" },
       { text: "朋友们", link: "/friends" },
     ],
+
+    outline: {
+      level: [2, 3],
+    },
 
     socialLinks: [{ icon: "github", link: "https://github.com/Hamster5295" }],
 
@@ -37,16 +49,16 @@ const vitePressOptions = {
   lastUpdated: true,
   externalLinkIcon: true,
 
-  vite:{
+  vite: {
     plugins: [
       RssPlugin({
         title: "Hamster5295's Blog",
         description: "Hamster5295 的博客，（将会）包含各种神奇的技术分享！",
         baseUrl: "https://hamster5295.github.io",
         copyright: "Copyright © 2023-present Hamster5295",
-      })
-    ]
-  }
+      }),
+    ],
+  },
 };
 
 const vitePressSidebarOptions = {

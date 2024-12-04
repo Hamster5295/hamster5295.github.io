@@ -137,10 +137,20 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * sidebar
+ * -------------------------------------------------------------------------- */
 
-.group:has([role='button']) .VPSidebarItem.level-0 .items {
+.group:has([role="button"]) .VPSidebarItem.level-0 .items {
   padding-left: 16px !important;
   border-left: 1px solid var(--vp-c-divider);
   border-radius: 2px;
   transition: background-color 0.25s;
+}
+
+/**
+ * medium-zoom
+ * -------------------------------------------------------------------------- */
+ .medium-zoom-image--opened {
+  z-index: 999;
 }
