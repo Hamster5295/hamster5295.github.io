@@ -151,6 +151,10 @@
 /**
  * medium-zoom
  * -------------------------------------------------------------------------- */
- .medium-zoom-image--opened {
+.medium-zoom-image--opened {
   z-index: 999;
+}
+
+.medium-zoom-image{
+  border-radius: 0.4rem;
 }
