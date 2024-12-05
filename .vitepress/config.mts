@@ -30,6 +30,7 @@ const vitePressOptions = {
 
     outline: {
       level: [2, 3],
+      label: "本页内容"
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/Hamster5295" }],
