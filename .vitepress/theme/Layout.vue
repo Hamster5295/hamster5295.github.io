@@ -7,7 +7,7 @@ import { watch, nextTick, onMounted } from "vue";
 let { route } = useRouter();
 
 const initZoom = () => {
-    mediumZoom('img', { background: 'var(--vp-c-bg)' });
+    mediumZoom('.main img', { background: 'var(--vp-c-bg)' });
 }
 
 onMounted(() => {
