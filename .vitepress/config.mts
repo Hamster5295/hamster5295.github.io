@@ -50,6 +50,16 @@ const vitePressOptions = {
   lastUpdated: true,
   externalLinkIcon: true,
 
+  markdown: {
+    container: {
+      tipLabel: ':leafy_green: 提示',
+      warningLabel: ':warning: 注意',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
+  },
+
   vite: {
     plugins: [
       RssPlugin({

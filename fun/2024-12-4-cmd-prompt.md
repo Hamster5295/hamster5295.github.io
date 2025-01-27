@@ -3,7 +3,7 @@
 作为 **行为艺术** 分类的第一篇文章，让我们以 Windows CMD Prompt 形态出战！
 
 
-![最终效果](/fun/2024-12-4-cmd-prompt/preview.webp)
+![最终效果](/fun/2024-12-4-cmd-prompt/preview.avif)
 
 ## TL; DR
 
@@ -41,7 +41,7 @@
 至少在你跟着官网的指导，把**所有东西都装进 C 盘**之前是这样。
 
 ::: warning ⚠️ 这是个陷阱！
-![这是个陷阱！](/fun/2024-12-4-cmd-prompt/scoop-trap.webp)  
+![这是个陷阱！](/fun/2024-12-4-cmd-prompt/scoop-trap.avif)  
 
 看到这两行诱人的脚本了吗？  
 不要跑它！  
@@ -106,7 +106,7 @@ Run 'clink autorun install' to auto start clink
 如其所述，执行 `clink autorun install` 后，每次启动 `cmd` ，`Clink` 将会自动注入其中。  
 现在，让我们重启 `cmd`, 然后见证***魔法***!
 
-![自动补全！](/fun/2024-12-4-cmd-prompt/auto-complete.webp)
+![自动补全！](/fun/2024-12-4-cmd-prompt/auto-complete.avif)
 自动补全！  
 
 现在 `Clink` 已经可以发挥作用了。不过他还没有解锁自己的全部实力。  
@@ -118,7 +118,7 @@ Run 'clink autorun install' to auto start clink
 :::
 
 在这个文件夹中，你可以找到一个名为 `_default_settings` 的文件：
-![默认设置](/fun/2024-12-4-cmd-prompt/clink-default-settings.webp)
+![默认设置](/fun/2024-12-4-cmd-prompt/clink-default-settings.avif)
 
 删除文件名开头的 `_` ，再次重启 `cmd`。  
 现在，你输入的内容将会被**高亮**显示！  
@@ -222,7 +222,7 @@ figlet Hello! | cowsay
 figlet Hello! | cowsay | lolcat
 ```
 
-![lol!](/fun/2024-12-4-cmd-prompt/lolcat.webp)
+![lol!](/fun/2024-12-4-cmd-prompt/lolcat.avif)
 
 ## 后续步骤
 截至目前，我们的 `cmd` 已经完全变换了相貌，变得能用甚至有些好用了！  
