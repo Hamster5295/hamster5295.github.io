@@ -2,7 +2,7 @@
 
 > 我们编写了很多基础的功能，但还保留了一大部分，这样你才知道你用的是 ***Unity3D*** 
 
-## TL;DR
+## TL; DR
 - Unity 运行时无法访问自定义的 `ProjectSettings`
 - 使用保存在 `Assets` 下的 `ScriptableObject` 作为自定义项目设置
 - 使用 `Preloaded Assets` 和 `Resources.FindObjectOfTypeAll` 自动加载自定义设置项
